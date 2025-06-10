@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Frostholm</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="js/global_vars.js" defer></script>
+		<script src="js/tools.js" defer></script>
+		<script src="js/classes/bodies.js" defer></script>
+		<script src="js/classes/camera.js" defer></script>
+		<script src="js/classes/containers.js" defer></script>
+		<script src="js/classes/drawing.js" defer></script>
+		<script src="js/classes/entities.js" defer></script>
+		<script src="js/classes/gui.js" defer></script>
+		<script src="js/classes/items.js" defer></script>
+		<script src="js/classes/lights.js" defer></script>
+		<script src="js/classes/projectiles.js" defer></script>
+		<script src="js/classes/tiles.js" defer></script>
+		<script src="js/collisions.js" defer></script>
+		<script src="js/controls.js" defer></script>
+		<script src="js/draw.js" defer></script>
+		<script src="js/levels/title_screen.js" defer></script>
+		<script src="js/levels/level1.js" defer></script>
+		<script src="js/init.js" defer></script>
+		<script src="js/main.js" defer></script>
+	</head>
+	<body>
+		<center>
+			<canvas width="1280px" height="832px" id="canvas"></canvas>
+			<canvas width="1280px" height="832px" id="light_map_canvas" hidden></canvas>
+			<canvas width="1280px" height="832px" id="sfx_canvas"></canvas>
+			<div>
+				<h2>Controls</h2>
+				<ul id="controls">
+					<li>A = move left</li>
+					<li>D = move right</li>
+					<li>SPACE = jump</li>
+					<li>LEFT SHIFT = sprint</li>
+					<h4>Climbing Controls</h4>
+					<li>H = toggle climbing</li>
+					<li>J&K = alternate these keys to climb</li>
+				</ul>
+			</div>
+		</center>
+	</body>
+</html>

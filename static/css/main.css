@@ -1,0 +1,14 @@
+#controls {
+	list-style: none;
+	padding: 0;
+}
+
+#playBtn {
+	width: 256px;
+	height: 128px;
+	font-size: 100px;
+}
+
+#canvas {
+	border: 1px solid black;
+}

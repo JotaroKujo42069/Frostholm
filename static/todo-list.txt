@@ -1,0 +1,5 @@
+make smooth climbing
+make a boss
+add platforming obstacles
+make enemies smarter
+fix slow fall when player and enemy are next to a wall
